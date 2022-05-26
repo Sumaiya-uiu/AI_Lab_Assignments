@@ -1,0 +1,72 @@
+class Node:
+    def __init__(self,node_no,prev_node,actual_travel_cost,total_cost):
+        self.node_no = node_no
+        self.prev_node = prev_node
+        self.actual_travel_cost =  actual_travel_cost
+        self.total_cost = total_cost
+
+class MinPriorityQueue(object): 
+    def __init__(self): 
+        self.queue = [] 
+  
+    def __str__(self): 
+        return ' '.join([str(i) for i in self.queue]) 
+  
+    def isEmpty(self): 
+        return len(self.queue) == [] 
+  
+    def insert(self, data): 
+        self.queue.append(data) 
+  
+    def delete(self): 
+        try: 
+            min = 0
+            for i in range(len(self.queue)): 
+                t1 = self.queue[i].total_cost
+                t2 = self.queue[min].total_cost
+                if t1 < t2: 
+                    min = i 
+            item = self.queue[min] 
+            del self.queue[min] 
+            return item 
+        except IndexError: 
+            print() 
+            exit()
+
+node_dict = dict()
+node_dict = {'0': 'S', '1': 'A', '2': 'B', '3': 'C', '4': 'D'}
+node = ['0','1','2','3','4']
+search_node = '3'
+adj_node = [['-1', '1', '4', '-1', '-1'], ['-1', '-1', '2', '5', '12'], ['-1', '-1', '-1', '2', '-1'], ['-1', '-1', '-1', '-1', '3'], ['-1', '-1', '-1', '-1', '-1']]
+h_value = ['7','6','2','1','0']
+
+
+S = Node(node[0],None,0,h_value[0])
+q = MinPriorityQueue()
+q.insert(S)
+track = 0
+path = []
+while(not q.isEmpty()):
+    track= track +1
+    nob = q.delete()
+    if(int(Nob.node_no) == int(search_node)):
+        p = Nob
+        while(p.prev_node!=None):
+            path.append(p.node_no)
+            p = p.prev_node
+        path.append(p.node_no)
+        print('Found')
+        print('Cost:'+str(Nob.actual_travel_cost))
+        break
+    j = 0
+    for i in adj_node[int(Nob.node_no)]:
+        if(int(i) > -1):
+            act_tc =  int(nob.actual_travel_cost) + int(i) 
+            total_tc = act_tc + int(h_value[int(j)])
+            NewNob = Node(node[j],Nob,act_tc,total_tc)
+            q.insert(NewNob)
+        j = j + 1
+print('Desired path :',after_l =" ")
+for i in reversed(path):
+    print(node_dict[str(i)],after_l ="->")
+
