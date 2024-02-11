@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2024-02-11T16:02:22.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.2" etag="jiDKxas4kZWELrM9QqjT" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-11T16:27:40.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PfSIi0dhYu4vGdXDkAvV" version="23.1.2" type="github">
   <diagram name="Page-1" id="fYBjqZ4xrnwQQuxoEaGQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-1" value="&lt;b&gt;Denoising&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-2" value="&lt;b&gt;Pre-Screening&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-3" value="&lt;b&gt;UNet Model&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-4" value="&lt;b&gt;Feature-Map Generation&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ycLrT0i1Qd2NdqBDtHQh-2" target="ycLrT0i1Qd2NdqBDtHQh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ycLrT0i1Qd2NdqBDtHQh-1" target="ycLrT0i1Qd2NdqBDtHQh-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ycLrT0i1Qd2NdqBDtHQh-3" target="ycLrT0i1Qd2NdqBDtHQh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ycLrT0i1Qd2NdqBDtHQh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-9" value="Need Physician advice!?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ycLrT0i1Qd2NdqBDtHQh-10" value="&lt;i&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;There some changes can be made!!&lt;/font&gt;&lt;/b&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="260" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
