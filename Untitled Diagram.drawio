@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="IacC8B9xrQO_xWNSlJZE">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-2" value="&lt;span style=&quot;color: rgb(77, 77, 76); font-family: berkeleyMono, &amp;quot;berkeleyMono Fallback&amp;quot;, ui-monospace, SFMono-Regular, monospace; font-size: 14px; text-align: right; white-space-collapse: preserve; background-color: oklch(0.963 0.007 106.523);&quot;&gt;AI Adoption&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-3" value="&lt;span style=&quot;text-align: right; color: rgb(77, 77, 76); background-color: oklch(0.963 0.007 106.523);&quot;&gt;Skill Transformation &lt;/span&gt;&lt;span style=&quot;text-align: right; color: rgb(77, 77, 76); background-color: oklch(0.963 0.007 106.523);&quot;&gt;Technical Skills: Python, TensorFlow, PyTorch  &lt;/span&gt;&lt;span style=&quot;text-align: right; color: rgb(77, 77, 76); background-color: oklch(0.963 0.007 106.523);&quot;&gt;Soft Skills: Ethical reasoning, problem-solving  &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-4" value="&lt;span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;text-align: right; background-color: oklch(0.963 0.007 106.523);&quot;&gt;Job Displacement &lt;/span&gt;&lt;span style=&quot;text-align: right; background-color: oklch(0.963 0.007 106.523);&quot;&gt;Routine tasks (system monitoring, coding)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-5" value="&lt;span style=&quot;text-align: right; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Job Creation&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;text-align: right; color: rgb(77, 77, 76);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: right; color: rgb(77, 77, 76);&quot;&gt;High-skill roles (AI engineers, data scientists)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJzM18fqf7PEKHZ5dN-U-2" target="oJzM18fqf7PEKHZ5dN-U-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oJzM18fqf7PEKHZ5dN-U-2" target="oJzM18fqf7PEKHZ5dN-U-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oJzM18fqf7PEKHZ5dN-U-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oJzM18fqf7PEKHZ5dN-U-2" target="oJzM18fqf7PEKHZ5dN-U-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
